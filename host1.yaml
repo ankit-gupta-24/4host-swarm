@@ -12,8 +12,8 @@ volumes:
 
 networks:
   byfn:
-    external:
-      name: first-network
+    name: first-network
+    external: true
 
 services:
   orderer.example.com:
